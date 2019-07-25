@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#my-carousel-frame{
+    margin: 50px auto;
+}    
+
+#my-carousel-frame{
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 600px;
+}
+
+#my-carousel-frame #my-carousel-container{
+    width: calc(800px * 3);
+    height: 600px;
+}
+
+#my-carousel-frame #my-carousel-container .my-carousel-li{
+    float: left;
+    width: 800px;
+    height: 600px;
+}
+#my-carousel-frame #my-carousel-container .my-carousel-li .display-image{
+    width: 800px;
+    height: 600px;
+}
