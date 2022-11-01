@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "D": "^1.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-connect": "^5.7.0",
     "requirejs": "^2.3.6"
   },
